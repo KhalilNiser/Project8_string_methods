@@ -90,9 +90,11 @@ function getStringSearch()
 //              ---- CONVERT_NUMBERS_TO_STRING_METHOD ----
 function stringValueOfNumber()
 {
-    let number = 8675309;
+    let number = 15;
 
-    document.getElementById("strId" ).innerHTML = number;
+    let strValResult = number.toString( 2 );
+
+    document.getElementById("strId" ).innerHTML = strValResult;
 }
 //              ---- END_CONVERT_NUMBERS_TO_STRING_METHOD ----
 
